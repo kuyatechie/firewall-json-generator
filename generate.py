@@ -57,7 +57,7 @@ class FileGenerator(object):
         try:
             target_file = open(self.path, 'w')
             target_file.write(self.content)
-            logger.info('Able to write to csv file: {}'.format(self.path))
+            logger.info('Able to write to file: {}'.format(self.path))
 
         except Exception as e:
             logger.error('Error writing to target json path. {}'.format(e))
