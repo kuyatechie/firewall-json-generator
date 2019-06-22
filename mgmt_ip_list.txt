@@ -1,0 +1,5 @@
+192.168.0.1 - fw1.nl.lgi.com
+192.168.0.2 - fw2.nl.lgi.com
+192.168.0.3 - fw3.nl.lgi.com
+192.168.0.4 - fw4.nl.lgi.com
+192.168.0.5 - fw5.nl.lgi.com
