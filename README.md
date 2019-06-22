@@ -50,6 +50,21 @@ optional arguments:
                         generator.log'.
 ```
 
+Bash script to auto generate files from a given ip_list:
+-------------------------------------------------------
+This bash file reads the mgmt_ip_list.txt, extract IP addresses and use the IPs as input parameter to python script.
+```
+firewall-json-generator arvin$ ./autogenerate.sh 
+2019-06-22 14:28:18,197 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
+2019-06-22 14:28:18,197 root         INFO     Able to write to file: ./output/192.168.0.1
+2019-06-22 14:28:18,255 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
+2019-06-22 14:28:18,256 root         INFO     Able to write to file: ./output/192.168.0.2
+2019-06-22 14:28:18,317 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
+2019-06-22 14:28:18,318 root         INFO     Able to write to file: ./output/192.168.0.3
+2019-06-22 14:28:18,376 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
+2019-06-22 14:28:18,377 root         INFO     Able to write to file: ./output/192.168.0.4
+```
+
 Developer:
 ----------
 Arvin E. Cudanin - DevOps Engineer
