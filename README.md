@@ -43,8 +43,8 @@ optional arguments:
                         The source csv file to refer the firewall
                         configurations from.
   -f FILENAME, --filename FILENAME
-                        The source csv file to refer the firewall
-                        configurations from. Default value is './output.json'.
+                        The destination file to write the output JSON. Default
+                        value is './output.json'.
   -l PATH, --logfile PATH
                         Path to logfile. Default value is './firewall-json-
                         generator.log'.

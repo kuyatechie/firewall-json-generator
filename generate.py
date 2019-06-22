@@ -13,7 +13,7 @@ parser.add_argument('-s', '--source', metavar='PATH', dest='source', type=str, r
                     help='The source csv file to refer the firewall configurations from.')
 
 parser.add_argument('-f', '--filename', metavar='FILENAME', dest='filename', type=str, default='./output.json',
-                     help='The source csv file to refer the firewall configurations from. '
+                     help='The destination file to write the output JSON. '
                           'Default value is \'./output.json\'.')
 
 parser.add_argument('-l', '--logfile', metavar='PATH', dest='logfile', type=str, default='./firewall-json-generator.log',
