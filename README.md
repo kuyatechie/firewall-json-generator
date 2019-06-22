@@ -22,10 +22,10 @@ generate.py is a python script requiring two inputs.
 
 Launching the App:
 -------------------
-To launch the script: python3 generate.py --source <path_to_csv_source> --filename <filename_to_use>
+To launch the script: python3 generate.py --source <path_to_csv_source> --filename <output_filename_to_use>
 
 ```
-arvin$ python3 generate.py --source "./Code_Assignment_fw_rule_input.csv" --filename="./192.168.0.1"
+firewall-json-generator arvin$ python3 generate.py --source "./Code_Assignment_fw_rule_input.csv" --filename="./192.168.0.1"
 2019-06-22 11:55:01,821 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
 2019-06-22 11:55:01,822 root         INFO     Able to write to csv file: ./192.168.0.1
 ```
