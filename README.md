@@ -64,9 +64,3 @@ firewall-json-generator arvin$ ./autogenerate.sh
 2019-06-22 14:28:18,376 root         INFO     Able to read csv file: ./Code_Assignment_fw_rule_input.csv
 2019-06-22 14:28:18,377 root         INFO     Able to write to file: ./output/192.168.0.4
 ```
-
-Developer:
-----------
-Arvin E. Cudanin - DevOps Engineer
-
-email: arvin.cudanin@gmail.com
